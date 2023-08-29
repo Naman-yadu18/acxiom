@@ -1,13 +1,11 @@
 import tkinter as tk
 from tkinter import *
-from PIL import ImageTk,Image #PIL -> Pillow
+from PIL import ImageTk,Image 
 import pymysql
 from tkinter import messagebox
-from AddBook import *
-from DeleteBook import *
-from ViewBooks import *
-from IssueBook import *
-
+from Admin import *
+from Vendor import *
+from User import *
 
 mypass = "root" #use your own password
 mydatabase="db" #The database name
